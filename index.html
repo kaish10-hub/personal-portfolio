@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohd Kaish Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#hero" class="logo">Mohd<span>&nbsp;Kaish</span></a>
+            
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <h3>Hello, I am</h3>
+                    <h1>Mohd Kaish</h1>
+                    <h2>I'm a <span class="typing-text">Aspiring Full Stack Developer</span></h2>
+                    <p>An enthusiastic Computer Science student passionate about solving real-world problems, building modern web applications, and writing clean, efficient code.</p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-img-container reveal">
+                    <div class="blob">
+                        <img src="Kaish.jpg" alt="Professional Profile Picture" class="hero-img">
+                    </div>
+                </div>
+            </div>
+            <div class="background-circles">
+                <div class="circle c1"></div>
+                <div class="circle c2"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">About <span>Me</span></h2>
+                <div class="about-grid">
+                    <div class="about-img-box reveal">
+                        <img src="coding-illustrations.jpg" alt="Coding Illustration" class="about-img">
+                    </div>
+                    <div class="about-content reveal">
+                        <h3>My Journey</h3>
+                        <p>I'm a Computer Science student who enjoys solving logical problems and turning ideas into clean, efficient code. I like building applications that not only work well but are also easy to use and understand.</p>
+                        <p>I'm always improving my problem-solving skills and learning new technologies. I'm looking for opportunities to work on real-world projects, collaborate with a great team, and grow as a full-stack developer.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">My <span>Skills</span></h2>
+                <div class="skills-grid">
+                    
+                    <div class="skill-card reveal">
+                        <div class="skill-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h3>Frontend</h3>
+                        <ul class="skill-list">
+                            <li>HTML5 / CSS3</li>
+                            <li>Tailwind CSS / Bootstrap</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>React.js</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
+                        <h3>Backend</h3>
+                        <ul class="skill-list">
+                            <li>Node.js / Express</li>
+                            <li>REST APIs</li>
+                            <li>MongoDB / SQL</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                        <h3>Languages</h3>
+                        <ul class="skill-list">
+                            <li>C / C++</li>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-icon"><i class="fa-solid fa-gears"></i></div>
+                        <h3>Tools & Tech</h3>
+                        <ul class="skill-list">
+                            <li>Git & GitHub</li>
+                            <li>Postman API</li>
+                            <li>VS Code / Intellij IDEA</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">Featured <span>Projects</span></h2>
+                <div class="projects-grid">
+                    
+                    <div class="project-card reveal">
+                        <div class="project-img-wrapper">
+                            <img src="project1.png" alt="Project One Image" class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h3>Spotify-Web-Player</h3>
+                            <p>A responsive Spotify-inspired web music player built using HTML, CSS, and JavaScript. This project replicates the core user experience of Spotify, including dynamic playlist loading, music playback controls, album browsing, and a modern responsive interface.</p>
+                            <div class="tech-stack">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Fetch API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/kaish10-hub/Spotify-Web-Player" target="_blank" class="btn btn-sm btn-secondary"><i class="fa-brands fa-github"></i> Code</a>
+                                <a href="https://spotify-web-player-kaish.netlify.app/" target="_blank" class="btn btn-sm btn-primary"><i class="fa-solid fa-external-link"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card reveal">
+                        <div class="project-img-wrapper">
+                            <img src="project2.jpeg" alt="Project Two Image" class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h3>cerso-landing-page</h3>
+                            <p>A modern and responsive business landing page developed for Cerso as part of my internship using HTML, CSS, and JavaScript. The project focuses on showcasing Cerso's services with a clean UI, responsive layout, and smooth user experience.</p>
+                            <div class="tech-stack">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Font Awesome</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/kaish10-hub/cerso-landing-page" target="_blank" class="btn btn-sm btn-secondary"><i class="fa-brands fa-github"></i> Code</a>
+                                <a href="https://cerso-landing-page.netlify.app/" target="_blank" class="btn btn-sm btn-primary"><i class="fa-solid fa-external-link"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education-section section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">My <span>Education</span></h2>
+                <div class="timeline">
+                    
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2024 - 2028</span>
+                            <h3>Bachelor of Technology (B.Tech)</h3>
+                            <h4>Noida Institute of Engineering and Technology</h4>
+                            <p>Specializing in Computer Science and Engineering. Deep dive into algorithms, structured systems, and collaborative web design patterns.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2022 - 2023</span>
+                            <h3>Higher Secondary Education</h3>
+                            <h4>Sindhu Vidya Mandir Inter College</h4>
+                            <p>Focused intently on advanced mathematics, structural physics, and computer science basics.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <h2 class="section-title reveal">Get In <span>Touch</span></h2>
+                <div class="contact-grid">
+                    
+                    <div class="contact-info reveal">
+                        <h3>Let's Connect</h3>
+                        <p>Feel free to reach out for internship opportunities, project collaborations, or just a quick technical discussion!</p>
+                        <div class="info-details">
+                            <div class="info-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>kaishredmi743@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Knowledge Park II, Greater Noida, India</span>
+                            </div>
+                        </div>
+                        <div class="social-icons">
+                            <a href="https://github.com/kaish10-hub/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="www.linkedin.com/in/mohd-kaish10" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="mailto:kaishredmi743@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container reveal">
+                        <form id="contactForm" class="contact-form" autocomplete="off">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Your Name" required>
+                                <span class="error-text">Please enter your name</span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Your Email" required>
+                                <span class="error-text">Please enter a valid email address</span>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                                <span class="error-text">Please type your message</span>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                            <div id="formSuccess" class="form-success-msg">Message sent successfully!</div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Mohd Kaish. All Rights Reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/kaish10-hub/"><i class="fa-brands fa-github"></i></a>
+                <a href="www.linkedin.com/in/mohd-kaish10"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
