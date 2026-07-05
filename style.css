@@ -639,6 +639,7 @@ a {
 .footer-socials {
     display: flex;
     gap: 15px;
+    padding-right: 34px;
 }
 
 .footer-socials a {
