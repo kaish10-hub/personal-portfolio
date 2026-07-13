@@ -4,7 +4,7 @@ A modern, responsive, and interactive personal portfolio website built using **H
 
 ## 🚀 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-00C853?style=for-the-badge&logo=netlify&logoColor=white)](https://kaish-personal-portfolio.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-00C853?style=for-the-badge&logo=netlify&logoColor=white)](https://kaish10-hub.github.io/personal-portfolio/)
 
 ## 📸 Preview
 
